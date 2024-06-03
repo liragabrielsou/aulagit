@@ -1,8 +1,10 @@
 // val -> delacração de variável somente leitura
 //var -> delacração de variável mutavel
+//listOf -> Cria uma lista de somente leitura
+//MutableListOf -> Cria uma lista mutavel 
 
-val name ="Davi"
+val readNames = listOf ("Davi","João","André")
 
 fun main(){
-  println("Hello, $name!")
+  println("Hello, $readName!")
 }
